@@ -30,7 +30,9 @@ body {
     font-weight: bold;
     color: white;
 }
-.content {
+
+/* About me */
+.About-me-content {
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
@@ -38,16 +40,16 @@ body {
     margin-top: 100px; 
     color: black;
 }
-.text-section {
+.About-me-text-section {
     flex: 1; 
     max-width: 50%;
     margin-top: -100px; 
 }
-.text-section h1 {
+.About-me-text-section h1 {
     font-size: 48px;
 }
-.text-section p {
-    font-size: 24px;
+.About-me-text-section p {
+    font-size: 22px;
 }
 
 .circle-container {
@@ -69,27 +71,19 @@ body {
 }
 
 /* link */
-.Links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* 讓內容居中 */
-    gap: 20px; /* 添加間距 */
-    margin-top: 10px;
-}
-
-.Link {
+.About-me-Link {
     width: 150px;
     background: rgb(242, 242, 242);
 }
 
-.Link img {
+.About-me-Link img {
     width: 50px;
     height: 50px;
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 
-/* Work experence */
+/* Work experence section*/
 .Work-experience {
     width: 100%;
     padding: 50px 20px;
@@ -101,47 +95,47 @@ body {
     margin-top: 20px;
 }
 
-.Work-experience-container {
+.Work-experience h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* III */
+.III-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 100px;
 }
 
-/* 左側文字區域 */
-.text {
+.III-text {
     flex: 1;
     max-width: 50%;
     text-align: left;
     margin-left: 165px;
 }
 
-.Work-experience h2 {
-    font-size: 50px;
-    margin-bottom: 20px;
-    color: #000000; /* 顯示醒目的標題顏色 */
-}
-
-.Work-experience p {
+.III-text h3 {
     font-size: 30px;
     margin-bottom: 20px;
     color: #000000;
 }
 
-.Work-experience ul {
+.III-text ul {
     list-style: decimal;
     margin-left: 20px;
     color: #333;
 }
 
-.Work-experience li {
+.III-text li {
     font-size: 10px;
     color: #000000;
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-image {
+.III-image {
     display: flex;
     justify-content: center;
     gap: 20px; /* 圖片之間的間距 */
@@ -149,18 +143,69 @@ image {
     margin-top: 20px;
 }
 
-.image img {
+.III-image img {
     width: 400px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
 }
 
+
+/* SHT */
+.SHT-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.SHT-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    margin-left: 165px;
+}
+
+.SHT-text h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.SHT-text ul {
+    list-style: decimal;
+    margin-left: 20px;
+    color: #333;
+}
+
+.SHT-text li {
+    font-size: 10px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.SHT-image {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 圖片之間的間距 */
+    flex-wrap: wrap; /* 小螢幕會自動換行 */
+    margin-top: 20px;
+}
+
+.SHT-image img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Volunteer-Experience section*/
 .Volunteer-Experience {
     width: 100%;
     padding: 50px 20px;
     background-color: rgb(255, 255, 255);
-    color: #333;
     text-align: center;
     box-sizing: border-box;
 }
@@ -171,31 +216,189 @@ image {
     color: #000000;
 }
 
-.Volunteer-Experience-container {
+/* Teaching Assistant */
+.TA-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 100px;
 }
 
-.Volunteer-Experience p {
+.TA-text {
+    max-width: 100%;
+    margin-left: 165px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.TA-text h3 {
     font-size: 30px;
     margin-bottom: 20px;
     color: #000000;
 }
 
-.Volunteer-Experience ul {
+.TA-text p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.TA-text ul {
     list-style: decimal;
     margin-left: 20px;
     color: #333;
 }
 
-.Volunteer-Experience li {
+.TA-text li {
     font-size: 10px;
     color: #000000;
     margin-bottom: 10px;
     font-size: 18px;
 }
+
+/* Vice President */
+.VP-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.VP-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    margin-left: 165px;
+}
+
+.VP-text h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.VP-text ul {
+    list-style: decimal;
+    margin-left: 20px;
+    color: #333;
+}
+
+.VP-text li {
+    font-size: 10px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.VP-image {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 圖片之間的間距 */
+    flex-wrap: wrap; /* 小螢幕會自動換行 */
+    margin-top: 20px;
+}
+
+.VP-image img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Captain and Coach */
+.CC-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.CC-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    margin-left: 165px;
+}
+
+.CC-text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.CC-text ul {
+    list-style: decimal;
+    margin-left: 20px;
+    color: #333;
+}
+
+.CC-text li {
+    font-size: 10px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.CC-image {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 圖片之間的間距 */
+    flex-wrap: wrap; /* 小螢幕會自動換行 */
+    margin-top: 20px;
+}
+
+.CC-image img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Project-Experience section*/
+.Project-Experience {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: rgb(157, 218, 231);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Project-Experience h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.FP-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.FP-card {
+    background: white;
+    color: #000;
+    padding: 20px 30px;
+    width: 90%;
+    max-width: 50%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.FP-card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.FP-card p {
+    font-size: 18px;
+}
+
+
 
 /* Media Query */
 @media (max-width: 768px) {
