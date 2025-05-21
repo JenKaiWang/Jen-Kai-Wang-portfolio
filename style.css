@@ -68,6 +68,27 @@ body {
     border-radius: 50%; /* 把圖片也變成圓形 */
 }
 
+/* link */
+.Links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 讓內容居中 */
+    gap: 20px; /* 添加間距 */
+    margin-top: 10px;
+}
+
+.Link {
+    width: 150px;
+    background: rgb(242, 242, 242);
+}
+
+.Link img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
 /* Work experence */
 .Work-experience {
     width: 100%;
@@ -120,9 +141,6 @@ body {
     font-size: 18px;
 }
 
-/* 右側圖片輪播區域 */
-
-
 image {
     display: flex;
     justify-content: center;
@@ -138,28 +156,46 @@ image {
     border-radius: 10px;
 }
 
+.Volunteer-Experience {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    text-align: center;
+    box-sizing: border-box;
+}
 
-/* link */
-.Links {
+.Volunteer-Experience h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.Volunteer-Experience-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* 讓內容居中 */
-    gap: 20px; /* 添加間距 */
-    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
 }
 
-.Link {
-    width: 150px;
-    background: rgb(242, 242, 242);
+.Volunteer-Experience p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
 }
 
-.Link img {
-    width: 50px;
-    height: 50px;
+.Volunteer-Experience ul {
+    list-style: decimal;
+    margin-left: 20px;
+    color: #333;
+}
+
+.Volunteer-Experience li {
+    font-size: 10px;
+    color: #000000;
     margin-bottom: 10px;
+    font-size: 18px;
 }
-
-
 
 /* Media Query */
 @media (max-width: 768px) {
