@@ -72,13 +72,13 @@ body {
 
 /* link */
 .About-me-Link {
-    width: 150px;
+    width: 300px;
     background: rgb(242, 242, 242);
 }
 
 .About-me-Link img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-right: 10px;
 }
 
@@ -88,10 +88,8 @@ body {
     width: 100%;
     padding: 50px 20px;
     background-color: rgb(157, 218, 231);
-    color: #333;
     text-align: center;
     box-sizing: border-box;
-    font-size: 36px;
     margin-top: 20px;
 }
 
@@ -139,6 +137,12 @@ body {
     color: #000000;
     margin-bottom: 10px;
     font-size: 18px;
+}
+
+.III-icon {
+    width: 40px;
+    height: auto;
+    margin-right: 8px;
 }
 
 .III-image {
@@ -197,11 +201,17 @@ body {
     font-size: 18px;
 }
 
+.SHT-icon {
+    width: 40px;
+    height: auto;
+    margin-right: 8px;
+}
+
 .SHT-image {
     display: flex;
     justify-content: center;
-    gap: 20px; /* 圖片之間的間距 */
-    flex-wrap: wrap; /* 小螢幕會自動換行 */
+    gap: 20px;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
@@ -217,7 +227,7 @@ body {
 .Volunteer-Experience {
     width: 100%;
     padding: 50px 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(242, 242, 242);
     text-align: center;
     box-sizing: border-box;
 }
@@ -227,6 +237,8 @@ body {
     margin-bottom: 20px;
     color: #000000;
 }
+
+
 
 /* Teaching Assistant */
 .TA-container {
@@ -392,7 +404,7 @@ body {
 }
 
 .FP-card {
-    background: white;
+    background: rgb(242, 242, 242);
     color: #000;
     padding: 20px 30px;
     width: 90%;
@@ -411,7 +423,7 @@ body {
 }
 
 .GG-card {
-    background: white;
+    background: rgb(242, 242, 242);
     color: #000;
     padding: 20px 30px;
     width: 90%;
