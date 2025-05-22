@@ -122,6 +122,12 @@ body {
     color: #000000;
 }
 
+.III-text p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
+
 .III-text ul {
     list-style: decimal;
     margin-left: 20px;
@@ -170,6 +176,12 @@ body {
     font-size: 30px;
     margin-bottom: 20px;
     color: #000000;
+}
+
+.SHT-text p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
 }
 
 .SHT-text ul {
@@ -372,7 +384,7 @@ body {
     color: #000;
 }
 
-.FP-container {
+.PE-container {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -398,6 +410,28 @@ body {
     font-size: 18px;
 }
 
+.GG-card {
+    background: white;
+    color: #000;
+    padding: 20px 30px;
+    width: 90%;
+    max-width: 50%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.GG-card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.GG-card p {
+    font-size: 18px;
+}
+
+.GG-card a {
+    font-size: 18px;
+}
 
 
 /* Media Query */
