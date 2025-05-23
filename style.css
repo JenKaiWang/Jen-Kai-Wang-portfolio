@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     padding-top: 80px; /* 為 navbar 預留空間 */
 }
+
 .navbar {
     width: 100%;
     display: flex;
