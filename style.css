@@ -114,7 +114,6 @@ body {
     max-width: 50%;
     text-align: left;
     margin-left: 165px;
-    border-left: 4px solid #333;
     padding-left: 20px;
 }
 
@@ -180,7 +179,6 @@ body {
     max-width: 50%;
     text-align: left;
     margin-left: 165px;
-    border-left: 4px solid #333;
     padding-left: 20px;
 }
 
@@ -247,6 +245,58 @@ body {
     color: #000000;
 }
 
+/* TSA */
+.TSA-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    margin-top: 10px;
+}
+
+.TSA-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    margin-left: 165px;
+    padding-left: 20px;
+}
+
+.TSA-text h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.TSA-text ul {
+    list-style: decimal;
+    margin-left: 20px;
+    color: #333;
+}
+
+.TSA-text li {
+    font-size: 10px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.TSA-image {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+    padding-right: 40px;
+}
+
+.TSA-image img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 
 /* Teaching Assistant */
@@ -264,7 +314,6 @@ body {
     text-align: left;
     padding: 20px;
     border-radius: 10px;
-    border-left: 4px solid #333;
     padding-left: 20px;
 }
 
@@ -308,7 +357,6 @@ body {
     max-width: 50%;
     text-align: left;
     margin-left: 165px;
-    border-left: 4px solid #333;
     padding-left: 20px;
 }
 
@@ -361,7 +409,6 @@ body {
     max-width: 50%;
     text-align: left;
     margin-left: 165px;
-    border-left: 4px solid #333;
     padding-left: 20px;
 }
 
@@ -542,6 +589,7 @@ body {
     }
 
     /* Volunteer Experience */
+    .TSA-container,
     .VP-container,
     .CC-container,
     .TA-container {
@@ -551,6 +599,7 @@ body {
         padding-bottom: 20px;
     }
 
+    .TSA-text,
     .VP-text,
     .CC-text,
     .TA-text {
@@ -563,6 +612,7 @@ body {
         padding-top: 10px;
     }
 
+    .TSA-image,
     .VP-image,
     .CC-image {
         padding-right: 0;
@@ -572,6 +622,7 @@ body {
         margin-top: -50px; 
     }
 
+    .TSA-image img,
     .VP-image img,
     .CC-image img {
         width: 90%;
