@@ -28,6 +28,14 @@ body {
     margin: 0 25px;
     font-weight: bold;
 }
+
+.menu-toggle {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
 .logo {
     font-weight: bold;
     color: white;
@@ -515,6 +523,39 @@ body {
 
 /* Media Query */
 @media (max-width: 768px) {
+    
+    /* navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        right: 50px;
+        bottom: 10px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: black;
+        position: absolute;
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+        padding: 10px 20px;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
 
     /* about me */
   .About-me-content {
