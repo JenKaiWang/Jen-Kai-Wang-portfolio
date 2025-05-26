@@ -22,6 +22,7 @@ body {
     left: 0;
     z-index: 100; /* 確保標頭位於最上層 */
 }
+
 .navbar a {
     color: white;
     text-decoration: none;
@@ -531,10 +532,14 @@ body {
     }
 
     .menu-toggle {
-        display: block;
+        width: 30px;
+        height: 30px;
         position: absolute;
         right: 50px;
-        bottom: 10px;
+        top: 15px;
+        cursor: pointer;
+        z-index: 101;
+        display: block;
     }
 
     .nav-links {
