@@ -498,6 +498,7 @@ body {
     font-size: 18px;
 }
 
+/* Grandma kitchen cat game GG  */
 .GG-card {
     background: rgb(242, 242, 242);
     color: #000;
@@ -518,6 +519,30 @@ body {
 }
 
 .GG-card a {
+    font-size: 18px;
+}
+
+/* CS579 Project  */
+.CS579-card {
+    background: rgb(242, 242, 242);
+    color: #000;
+    padding: 20px 30px;
+    width: 90%;
+    max-width: 50%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.CS579-card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.CS579-card p {
+    font-size: 18px;
+}
+
+.CS579-card a {
     font-size: 18px;
 }
 
@@ -676,18 +701,18 @@ body {
     }
 
     /* Project Experience */
-    .GG-card, .FP-card {
+    .CS579-card, .GG-card, .FP-card {
     width: 95%;
     max-width: none;
     padding: 20px 20px;
     font-size: 16px;
   }
 
-    .GG-card h3, .FP-card h3 {
+    .CS579, .GG-card h3, .FP-card h3 {
     font-size: 24px;
   }
 
-    .GG-card p, .FP-card p,
+    .CS579, .GG-card p, .FP-card p,
     .GG-card a {
     font-size: 16px;
   }
